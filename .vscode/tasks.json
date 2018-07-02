@@ -4,9 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "echo",
-            "type": "shell",
-            "command": "echo Hello"
+            "label": "os x ",
+            "type": "shell",            
+            "command": "clang++",
+            "args":[
+                "main.cpp",
+                "-std=c++11",
+                "-g"
+            ],
         }
     ]
 }
